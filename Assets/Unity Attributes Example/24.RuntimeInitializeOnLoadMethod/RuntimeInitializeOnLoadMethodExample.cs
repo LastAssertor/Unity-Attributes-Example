@@ -13,14 +13,15 @@ namespace LGamekit {
 
         // Note: The execution order of methods marked [RuntimeInitializeOnLoadMethod] is not guaranteed.
 
+        // 加载第一个场景时会被调用
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         static void OnBeforeSceneLoad() {
-            Debug.LogWarning("OnBeforeSceneLoad");
+            Debug.LogWarning("OnBeforeSceneLoad ======> " + UnityEngine.SceneManagement.SceneManager.GetActiveScene().name + ".unity");
         }
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         static void OnAfterSceneLoad() {
-            Debug.LogWarning("OnAfterSceneLoad");
+            Debug.LogWarning("OnAfterSceneLoad ======> " + UnityEngine.SceneManagement.SceneManager.GetActiveScene().name + ".unity");
         }
 
         //[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSplashScreen)]

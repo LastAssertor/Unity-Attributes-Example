@@ -18,8 +18,13 @@ namespace LGamekit {
         // and you would like them to be called in a certain order. Callbacks are called in order, starting at zero.
 
         [PostProcessScene(2)]
-        public static void OnPostprocessScene() {
-            GameObject.CreatePrimitive(PrimitiveType.Cube);
+        static void OnPostprocessScene() {
+            OnBeforeSceneLoaded();
+        }
+
+        static void OnBeforeSceneLoaded() {
+            var scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+            Debug.LogWarning("OnBeforeSceneLoaded ======> " + scene.name + ".unity");
         }
 
     }
