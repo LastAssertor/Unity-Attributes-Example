@@ -52,6 +52,15 @@ namespace LGamekit {
             Debug.LogWarning(GUIUtility.systemCopyBuffer);
         }
 
+        [@MenuItem("Assets/CopyAssetPath20", false, -1)]
+        static void CopyAssetPath20() {
+            if (Selection.activeObject == null) {
+                return;
+            }
+            GUIUtility.systemCopyBuffer = AssetDatabase.GetAssetPath(Selection.activeObject).Replace(" ", "%20");
+            Debug.LogWarning(GUIUtility.systemCopyBuffer);
+        }
+
         /*
 
         UnityEngine Atributes:
