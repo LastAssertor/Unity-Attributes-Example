@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3209469ccc7e4a0dbb15d0a75a06323, type: 3}
   m_Name: CreateAssetMenuExample
   m_EditorClassIdentifier: 
+  myInt: 222
+  myString: this is a scriptable object asset

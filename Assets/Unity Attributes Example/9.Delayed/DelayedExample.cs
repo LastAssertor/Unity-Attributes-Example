@@ -11,11 +11,11 @@ namespace LGamekit {
         // until the user has pressed enter or focus is moved away from the field.
 
         [Delayed]
-        public int intValue;
+        public int intValue = 22;
         [Delayed]
-        public float floatValue;
+        public float floatValue = 0.618f;
         [Delayed]
-        public string stringValue;
+        public string stringValue = "test delayed attribute";
 
     }
 

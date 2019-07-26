@@ -4,45 +4,53 @@
 
 ![img_1](img/example_list.jpg)
 
-1. [AddComponentMenu](Assets/Unity%20Attributes%20Example/1.AddComponentMenu/AddComponentMenuExample.cs) （添加组件菜单）
+[AddComponentMenu](Assets/Unity%20Attributes%20Example/1.AddComponentMenu/AddComponentMenuExample.cs) （添加组件菜单）
 
 ![addcomponentmenu](img/addcomponentmenu.jpg)
  
-2. [AssemblyIsEditorAssembly](Assets/Unity%20Attributes%20Example/2.AssemblyIsEditorAssembly/AssemblyIsEditorAssemblyExample.cs) （引擎会把该程序集下的全部类视为编辑器类）
+[AssemblyIsEditorAssembly](Assets/Unity%20Attributes%20Example/2.AssemblyIsEditorAssembly/AssemblyIsEditorAssemblyExample.cs) （引擎会把该程序集下的全部类视为编辑器类）
 
 ![assemblyIseditorassembly](img/assemblyIseditorassembly.gif)
 
-3. [BeforeRenderOrder](Assets/Unity%20Attributes%20Example/3.BeforeRenderOrder/BeforeRenderOrderExample.cs) （设置Application.onBeforeRender回调函数的执行顺序）
+[BeforeRenderOrder](Assets/Unity%20Attributes%20Example/3.BeforeRenderOrder/BeforeRenderOrderExample.cs) （设置Application.onBeforeRender回调函数的执行顺序）
 
 ![beforerenderorder](img/beforerenderorder.jpg)
 
-4. [ColorUsage](Assets/Unity%20Attributes%20Example/4.ColorUsage/ColorUsageExample.cs) （拾色器界面）
+[ColorUsage](Assets/Unity%20Attributes%20Example/4.ColorUsage/ColorUsageExample.cs) （拾色器界面）
 
 ![colorusage1](img/colorusage1.jpg)
 
 ![colorusage2](img/colorusage2.jpg)
 
-5. [ContextMenu](Assets/Unity%20Attributes%20Example/5.ContextMenu/ContextMenuExample.cs) (为组件添加快捷菜单)
+[ContextMenu](Assets/Unity%20Attributes%20Example/5.ContextMenu/ContextMenuExample.cs) (为脚本添加快捷菜单)
 
 ![contextmenu](img/contextmenu.gif)
 
-6. [ContextMenuItem](Assets/Unity%20Attributes%20Example/6.ContextMenuItem/ContextMenuItemExample.cs)  （为脚本属性添加快捷菜单）
+[ContextMenuItem](Assets/Unity%20Attributes%20Example/6.ContextMenuItem/ContextMenuItemExample.cs)  （为脚本字段添加快捷菜单）
 
 ![contextmenuitem](img/contextmenuitem.gif)
 
-7. CreateAssetMenu - 添加ScriptableObject的创建菜单（Project面板->右键->Create->你的菜单）
+[CreateAssetMenu](Assets/Unity%20Attributes%20Example/7.CreateAssetMenu/CreateAssetMenuExample.cs) （添加ScriptableObject的创建菜单）
 
-8. CustomGridBrush
+![createassetmenu](img/createassetmenu.gif)
 
-9. Delayed
+[CustomGridBrush](Assets/Unity%20Attributes%20Example/8.CustomGridBrush/Editor/CustomGridBrushExample.cs) （自定义笔刷）
 
-10. DisallowMultipleComponent
+![customgridbrush](img/customgridbrush.gif)
 
-11. ExcludeFromObjectFactory
+[Delayed](Assets/Unity%20Attributes%20Example/9.Delayed/DelayedExample.cs) （延迟设置字段的值）
 
-12. ExcludeFromPreset
+![delayed](img/delayed.gif)
 
-13. ExecuteAlways
+[DisallowMultipleComponent](Assets/Unity%20Attributes%20Example/10.DisallowMultipleComponent/DisallowMultipleComponentExample.cs) （不允许多次挂载同一个脚本到同一个物体上）
+
+![disallowmultiplecomponent](img/disallowmultiplecomponent.gif)
+
+[ExcludeFromObjectFactory]
+
+[ExcludeFromPreset]
+
+[ExecuteAlways]
 
 14. ExecuteInEditMode
 
@@ -100,7 +108,13 @@
 
 40. PostProcessScene - 回调函数（每次进入场景前）
 
-41. [GridPaintSorting](Assets/Unity\ Attributes\ Example/41.GridPaintSorting/README.md)
+[GridPaintSorting](Assets/Unity%20Attributes%20Example/41.GridPaintSorting/README.md)（the sorting of Active Targets in the Active Tilemap list of the Tile Palette window）
+
+![gridpaintsorting1](img/gridpaintsorting1.jpg)
+
+![gridpaintsorting2](img/gridpaintsorting2.jpg)
+
+![gridpaintsorting3](img/gridpaintsorting3.jpg)
 
 42. MenuItem
 
