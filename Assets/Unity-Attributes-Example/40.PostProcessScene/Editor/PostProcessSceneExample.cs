@@ -23,8 +23,8 @@ namespace UnityAttributesExample {
         }
 
         static void OnBeforeSceneLoaded() {
-            var scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
-            Debug.LogWarning("OnBeforeSceneLoaded ======> " + scene.name + ".unity");
+            //var scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+            //Debug.LogWarning("OnBeforeSceneLoaded ======> " + scene.name + ".unity");
         }
 
     }
