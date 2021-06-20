@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Unity Attributes Example/Unity Attributes Example.unity
+    path: Assets/Unity-Attributes-Example/Unity-Attributes-Example.unity
     guid: ba1032d12a8ef4f59aa63c0d5134edbf
   m_configObjects: {}
